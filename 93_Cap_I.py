@@ -1,4 +1,4 @@
-r"""Pattern for capital H"""
+r"""Pattern for capital I"""
 
 # For reasoning
 for i in range(0, 10):
@@ -9,19 +9,19 @@ for i in range(0, 10):
 
 for i in range(0, 10):
     for j in range(0, 10):
-        if (j == 0) or (i == 4) or (j == 9):
+        if (i == 0) or (j == 4) or (i == 9):
             print("*", end="")
         else:
             print(" ", end="")
     print(end="\n")
 
-# *        *
-# *        *
-# *        *
-# *        *
 # **********
-# *        *
-# *        *
-# *        *
-# *        *
-# *        *
+#     *     
+#     *     
+#     *     
+#     *     
+#     *     
+#     *     
+#     *     
+#     *     
+# **********
