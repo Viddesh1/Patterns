@@ -1,4 +1,4 @@
-r"""Pattern for capital E"""
+r"""Pattern for capital F"""
 
 # For reasoning
 # for i in range(10):
@@ -10,7 +10,7 @@ r"""Pattern for capital E"""
 # Implementation
 for i in range(0, 10):
     for j in range(0, 10):
-        if (i == 0) or (i == 4) or (j == 0) or (i == 9):
+        if (i == 0) or (i == 4) or (j == 0):
             print("*", end="")
         else:
             print(" ", end="")
@@ -21,9 +21,9 @@ for i in range(0, 10):
 # *         
 # *         
 # *         
-# *         
 # **********
 # *         
 # *         
 # *         
-# **********
+# *         
+# * 
