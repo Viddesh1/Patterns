@@ -1,12 +1,12 @@
 r"""Pattern for capital G"""
 
-# G (Square)
+# For reasoning
 for i in range(0, 10):
     for j in range(0, 10):
         print((i, j, "*"), end="")
     print(end="\n")
 
-
+# G (Square)
 for i in range(0, 10):
     for j in range(0, 10):
         if (i == 0) or (j == 0) or (i == 9) or (j == 9 and i >=4) or (i == 4 and j >= 4):
