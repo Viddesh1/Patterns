@@ -1,4 +1,4 @@
-r"""Pattern for small letter a"""
+r"""Pattern for small letter b"""
 
 # For reasoning
 for i in range(0, 10):
@@ -11,20 +11,20 @@ print("\n")
 # Small a (Square)
 for i in range(0, 10):
     for j in range(0, 10):
-        if (i == 0) or (j == 9) or (i == 9) or (i == 5) or (j == 0 and (i >= 5 and i <= 9)):
+        if (j == 0) or (i == 4) or (j == 9 and (i >= 4 and i <= 8)) or (i == 8):
             print("*", end="")
         else:
             print(" ", end="")
     print(end="\n")
 
 
-# **********
-#          *
-#          *
-#          *
-#          *
+# *         
+# *         
+# *         
+# *         
 # **********
 # *        *
 # *        *
 # *        *
 # **********
+# *   
